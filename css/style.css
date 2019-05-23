@@ -49,6 +49,7 @@ img {
 
 /* MENU */
 .menu {
+  display: none;
   width: 100%;
   height: 100%;
   position: fixed;
@@ -82,4 +83,53 @@ img {
 
 .menu li a:hover {
   border: 1px solid #da6709;
+}
+
+/* BANNER */
+.banner {
+  width: 100%;
+  float: left;
+  text-align: center;
+  padding: 3% 4%;
+  background: url(../img/bg.jpg) no-repeat fixed;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h2 {
+  font-size: 2.5em;
+  color: #fff;
+  font-weight: 700;
+}
+
+.title h3 {
+  font-size: 1.5em;
+  color: #fff;
+}
+
+.buttons { width: 100%; margin-top: 2% }
+
+.buttons i { float: right; }
+
+.btn-signup {
+  width: 100%;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #130400;
+}
+
+.btn-about {
+  width: 100%;
+  font-size: 1.5em;
+  cursor: pointer;
+  padding: 5%;
+  border-radius: 10px;
+  background-color: #130400;
+  color: #fff;
+  margin-top: 2%;
 }
