@@ -23,12 +23,33 @@ img {
   max-width: 100%;
 }
 
-/* HEADER */
-.header {
+/* CONTAINER */
+.container {
   width: 100%;
   float: left;
-  padding: 3% 4%;
+  text-align: center;
+  padding: 3% 4%;  
 }
+
+/* BG COLORS */
+.bg-gradient {
+  background: linear-gradient(to right, #ce2e3c, #da6709);
+}
+
+.bg-black {
+  background-color: #130400;
+}
+
+.bg-white {
+  background-color: #fff;
+}
+
+/* HELPERS */
+.radius {
+  border-radius: 7px;
+}
+
+/* HEADER */
 .logo {
   width: 56px;
   height: 56px;
@@ -44,7 +65,6 @@ img {
   color: #fff;
   border-radius: 56px;
   cursor: pointer;
-  background: linear-gradient(to right, #ce2e3c, #da6709);
 }
 
 /* MENU */
@@ -87,10 +107,6 @@ img {
 
 /* BANNER */
 .banner {
-  width: 100%;
-  float: left;
-  text-align: center;
-  padding: 3% 4%;
   background: url(../img/bg.jpg) no-repeat fixed;
 }
 
@@ -113,39 +129,26 @@ img {
 
 .buttons i { float: right; }
 
-.btn-signup {
+.btn {
   width: 100%;
   font-size: 1.5em;
   cursor: pointer;
   padding: 5%;
-  border-radius: 10px;
-  background-color: #fff;
+}
+
+.btn-signup {
   color: #130400;
 }
 
 .btn-about {
-  width: 100%;
-  font-size: 1.5em;
-  cursor: pointer;
-  padding: 5%;
-  border-radius: 10px;
-  background-color: #130400;
   color: #fff;
   margin-top: 2%;
 }
 
 /* SERVICES */
-.services {
-  width: 100%;
-  float: left;
-  padding: 3% 4%;
-}
-
 .service {
   width: 100%;
-  background-color: #fff;
   text-align: left;
-  border-radius: 7px;
   margin-bottom: 3%;
 }
 
@@ -162,14 +165,6 @@ img {
 .inner p { margin-top: 6%; color: #130400; line-height: 1.5em; }
 
 /* NEWSLETTER */
-.newsletter {
-  width: 100%;
-  float: left;
-  text-align: center;
-  padding: 3% 4%;
-  background-color: #130400;
-}
-
 .newsletter h2 {
   font-size: 1.5em;
   color: #fff;
@@ -184,32 +179,20 @@ img {
 
 .newsletter input {
   width: 100%;
-  background-color: #130400;
   color: rgba(255, 255, 255, 0.3);
   border: 1px solid #fff;
   padding: 5%;
-  border-radius: 5px;
 }
 
 .newsletter button {
   width: 100%;
-  background-color: #fff;
   color: #130400;
   padding: 5%;
-  border-radius: 5px;
   cursor: pointer;
   margin-top: 2%;
 }
 
 /* FOOTER */
-.footer {
-  width: 100%;
-  float: left;
-  padding: 3% 4%;
-  text-align: center;
-  background: linear-gradient(to right, #ce2e3c, #da6709);
-}
-
 .social-icons a { 
   font-size: 1.5em; 
   color: rgb(255,255,255,0.7);
